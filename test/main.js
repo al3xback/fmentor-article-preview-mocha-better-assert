@@ -4,7 +4,7 @@ import got from 'got';
 
 const { JSDOM } = jsdom;
 
-const url = 'https://al3xback.github.io/fmentor-article-preview-flex/';
+const url = 'https://al3xback.github.io/fmentor-article-preview-mocha-better-assert/';
 
 const getData = () => {
 	return got(url)
