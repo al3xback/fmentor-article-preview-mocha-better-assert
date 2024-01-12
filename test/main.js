@@ -29,20 +29,20 @@ describe('DOM', () => {
 					return;
 				}
 
-				const imageElements = document.querySelectorAll('img');
+				const imgEls = document.querySelectorAll('img');
 
-				let isImageExist = false;
+				let isImgExist = false;
 
-				for (let i = 0; i < imageElements.length; i++) {
-					const source = imageElements[i].src;
+				for (let i = 0; i < imgEls.length; i++) {
+					const source = imgEls[i].src;
 
 					if (source.includes(`${name}.jpg`)) {
-						isImageExist = true;
+						isImgExist = true;
 						break;
 					}
 				}
 
-				return isImageExist;
+				return isImgExist;
 			};
 			global.isAnImageExist = isAnImageExist;
 		} catch (err) {
