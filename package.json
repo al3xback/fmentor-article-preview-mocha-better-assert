@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-article-preview-mocha-better-assert",
 	"version": "1.0.0",
-	"description": "article preview component using mocha and better-assert testing",
+	"description": "article preview component using mocha and better-assert",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
