@@ -20,7 +20,8 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Mocha - Better-Assert
+- Mocha
+- Better-assert
 - Got
 - Jsdom
 - Mobile-first workflow
