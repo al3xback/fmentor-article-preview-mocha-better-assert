@@ -3,18 +3,19 @@
 
 .btn {
 	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 	padding: 0;
 	background-color: transparent;
 	border: 1px solid transparent;
-	text-decoration: none;
 	color: inherit;
+	text-decoration: none;
+	text-align: center;
 	cursor: pointer;
 	transition: all 0.15s ease-in-out;
 }
 
 .btn--icon {
-	justify-content: center;
-	align-items: center;
 	width: func.em(30, var.$font-size-primary);
 	height: func.em(30, var.$font-size-primary);
 	padding: func.em(2, var.$font-size-primary);
